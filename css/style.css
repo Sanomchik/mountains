@@ -675,6 +675,17 @@ footer {
   .img-box-3 {
     top: -760px;
   }
+  .section-2-img img {
+    position: static;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .header-start-text {
+    padding-left: 0;
+  }
+  .header-start-text-bg {
+    padding-left: 0;
+  }
 }
 
 @media only screen and (max-width: 765px) {
@@ -695,6 +706,9 @@ footer {
     padding-right: 30px;
     padding-left: 0;
   }
+  .section-4-box p {
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -710,5 +724,11 @@ footer {
   }
   .form-bg .row {
     margin: 0;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .section-3-bg {
+    padding: 0;
   }
 }
